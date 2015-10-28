@@ -16,6 +16,8 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.ArcType;
 import javafx.stage.Stage;
+import static org.robovm.apple.scenekit.SCNPhysicsBodyType.Static;
+import static org.robovm.apple.scenekit.SCNPhysicsCollisionCategory.Static;
 
 /**
  *
@@ -63,7 +65,8 @@ public class Davis_3_javfaxintro extends Application {
         private Object color;
         private Object Arctype;
 
-    public void start(Stage primaryStage) {
+        
+    public Static void start(Stage primaryStage) {
         primaryStage.setTitle("Drawing Operations Test");
         Group root = new Group();
         Canvas canvas;
@@ -72,9 +75,9 @@ public class Davis_3_javfaxintro extends Application {
                     
                     ;
                 
-    private void drawSomeCircle(GraphicsContext gc, int x, int y, int d) {
+   private void drawSomeGreenCircle(GraphicsContext gc, 12 , 34, 76 ) {
         gc.setFill(Color.BLUE);
-        gc.fillOval(x, y, d, d);
+        gc.fillOval(12, 34, 76, 76);
     }
 
     private void drawSomeRedCircle(GraphicsContext gc, int x, int y, int d) {
@@ -94,7 +97,7 @@ public class Davis_3_javfaxintro extends Application {
     
     private void drawLotsOfCircles(GraphicsContext gc, int num) {
         for (int i = 0; i < num; i++) {
-            drawSomeCircle(gc, 25 * i, (25 * i), 25);
+           
         }
     }
 
@@ -124,12 +127,9 @@ public class Davis_3_javfaxintro extends Application {
     }
 
     private void drawShapes(GraphicsContext gc) {
-        //if u get rekted 
-        //then uninstall
-        //IDE - Integrated Development Environment
-        //gc.fillRect(x, y, w, h);
-        gc.setFill(color.rgb(150,100, 200));
-        gc.setStroke(color.rgb(150,100,200));
+     
+        gc.setFill(color.rgb (150,100, 200));
+        gc.setStroke(color.rgb (150,100,200));
         gc.setLineWidth(5);
         gc.strokeLine(40, 10, 10, 40);
         gc.fillOval(10, 60, 30, 30);
@@ -154,7 +154,8 @@ public class Davis_3_javfaxintro extends Application {
 
 
 
-   
+   package com.lockamy_7_methodsmadness2;
+   public class Lockamy_7_MethodMadness extends Application {
     
     
 }
