@@ -1,0 +1,5 @@
+Strings are things that are used throgh out the game.
+
+Strings are good for the game.
+
+
