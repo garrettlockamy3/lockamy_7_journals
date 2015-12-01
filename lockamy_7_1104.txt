@@ -1,0 +1,14 @@
+What is a method?
+a method is a theory that can pass values and diffrent objects in a class
+
+Which methods did you use and how did you use them in your guessing game program?
+playthegame();
+numbers();
+gusses();
+
+What is a while loop?
+a while loop is a something is can count down or up depending on what yopu want it to do.
+
+How did you use a while loop, boolean, and counter in your guessing game?
+I  used a while loop and a counter in my game to count the users gusses that they have left.
+I used a boolean to let them play multiple times.
