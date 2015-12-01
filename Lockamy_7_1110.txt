@@ -1,0 +1,5 @@
+I would track them by making a method that woulod find certain things that are in the challenges.
+
+by setting up a while loop.
+
+i can track other items by making a method and a while loop.
